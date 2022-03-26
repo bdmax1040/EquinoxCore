@@ -2,6 +2,7 @@
     "values": [
     "core:countdown",
     "core:spectatorswitch",
-    "core:joinmessage"
+    "core:joinmessage",
+    "weathercontrol:tick"
 ]
 }

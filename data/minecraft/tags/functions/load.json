@@ -1,6 +1,7 @@
 {
     "values": [
     "core:load",
-    "core:teams"
+    "core:teams",
+    "weathercontrol:load"
 ]
 }
