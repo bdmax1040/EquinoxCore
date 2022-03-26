@@ -1,0 +1,7 @@
+{
+    "values": [
+    "core:countdown",
+    "core:spectatorswitch",
+    "core:joinmessage"
+]
+}
