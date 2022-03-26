@@ -1,0 +1,5 @@
+#file: ./main
+
+for(1,5){
+    /say value$(i)
+}
