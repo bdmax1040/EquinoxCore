@@ -213,6 +213,10 @@ execute at @a[scores={hc_playTick=7199960}] run playsound core:boop_2 master @a[
 execute as @a if score @s hc_playTick matches 7199980 run tellraw @s {"text":"1 Second Remaining!","bold":true,"color":"red"}
 execute at @a[scores={hc_playTick=7199980}] run playsound core:boop_2 master @a[scores={hc_playTick=7199980}] ~ ~ ~ 100 1 1
 
+#Final particles
+execute at @a[scores={hc_playTick=7199999}] run particle minecraft:cloud ~ ~ ~ 0.5 0.5 0.5 0.5 200 force
+execute at @a[scores={hc_playTick=7199999}] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 1 100 force
+
 
 ########
 

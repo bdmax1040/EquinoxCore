@@ -1,0 +1,18 @@
+########
+#EquinoxCore
+#v1.0.0
+#1.18.2
+########
+
+
+
+
+give @p enchanted_book{display:{Name:'{"text":"Odin","color":"#FF2727","bold":true,"italic":false}',Lore:['{"text":"An old rune... What could it do?","color":"gray","italic":true}']},CustomModelData:600000,odin:1b,Enchantments:[{}],StoredEnchantments:[{}]} 1
+
+give @p enchanted_book{display:{Name:'{"text":"Dragaz","color":"#FF6010","bold":true,"italic":false}',Lore:['{"text":"An old rune... What could it do?","color":"gray","italic":true}']},CustomModelData:600001,dragaz:1b,Enchantments:[{}],StoredEnchantments:[{}]} 1
+
+give @p enchanted_book{display:{Name:'{"text":"Lagu","color":"green","bold":true,"italic":false}',Lore:['{"text":"An old rune... What could it do?","color":"gray","italic":true}']},CustomModelData:600002,lagu:1b,Enchantments:[{}],StoredEnchantments:[{}]} 1
+
+give @p enchanted_book{display:{Name:'{"text":"Sigel","color":"#07A9FF","bold":true,"italic":false}',Lore:['{"text":"An old rune... What could it do?","color":"gray","italic":true}']},CustomModelData:600003,sigel:1b,Enchantments:[{}],StoredEnchantments:[{}]} 1
+
+give @p enchanted_book{display:{Name:'{"text":"Kaun","color":"#C600A5","bold":true,"italic":false}',Lore:['{"text":"An old rune... What could it do?","color":"gray","italic":true}']},CustomModelData:600004,kaun:1b,Enchantments:[{}],StoredEnchantments:[{}]} 1
