@@ -25,7 +25,7 @@ This is the core datapack that manages the custom survival experience for the Eq
 
 - Once a player reaches 100h of playtime, they will be placed into Spectator mode, a message will be broadcast to all online players that they have run out of time, and they will be added to the 'Stage5' team. As well as custom particle animation and sound effects that work globablly to notify all players online that someone has run out of time.
 
- - Full custom advancement tree
+ - 25 custom advancements which link to the custom Runes and Tablets
 
 - Full custom item/block system which lets players have the option to remove time from their counter, giving them more time to play
     - Ancient Runes
