@@ -4,7 +4,9 @@
 
 This is the core datapack that manages the custom survival experience for the EquinoxSMP. This contains all of the custom scoreboards, advancements, custom items, custom sounds as well as the general logistics in order to run the pack.
 
-**This datapack is dependent on having the EquinoxCoreResources pack, as well as VanillaTweaks Track Statistics datapack** - https://bit.ly/3iXCGSF + https://bit.ly/3qGFs2B
+**This datapack is DEPENDENT on having the EquinoxCoreResources pack, as well as VanillaTweaks Track Statistics datapack installed to your world.**
+- EquinoxCoreResources - https://bit.ly/3iXCGSF 
+- VanillaTweaks Track Raw Statistics - https://bit.ly/3qGFs2B
 
 ## **Features List**
 
