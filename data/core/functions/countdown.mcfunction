@@ -155,6 +155,7 @@ execute as @a if score @s hc_playTick matches 7200000 run title @s title {"text"
 
 #Broadcast Notification
 execute as @a if score @s hc_playTick matches 7200000 run tellraw @a {"text":"","bold":false,"color":"green","extra":[{"selector":"@p"},{"bold": true,"text":" has run out of time!"}]}
+execute at @a[scores={hc_playTick=7200000}] run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 100 1 1
 
 
 #Join Stage 5
