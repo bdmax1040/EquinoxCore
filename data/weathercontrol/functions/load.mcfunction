@@ -7,5 +7,3 @@
 scoreboard objectives add clear trigger
 
 scoreboard objectives add rain trigger
-
-scoreboard objectives add thunder trigger
