@@ -32,6 +32,7 @@ This is the core datapack that manages the custom survival experience for the Eq
 - Full custom item/block system which lets players have the option to remove time from their counter, giving them more time to play
     - Ancient Runes
     - Stargate Tablet
+    - Ancient Altar
 
  - Full custom sound effects and particle animations
 
