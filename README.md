@@ -14,6 +14,8 @@ This is the core datapack that manages the custom survival experience for the Eq
 
  - Creates health icon below player name and adds time played to the tab list
 
+ - Gives all players control over chaging the weather between clear and rain by using `/trigger clear` and `/trigger rain` regardless of operator status
+
 - Notifies players every 5h of playtime in the chat, and automatically assigns players to a coloured team depending on their playtime
     - Stage1 - 0h-50h - Green
     - Stage2 - 50h-75h - Dark Green
