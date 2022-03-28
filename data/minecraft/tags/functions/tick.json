@@ -3,6 +3,7 @@
     "core:countdown",
     "core:spectatorswitch",
     "core:joinmessage",
+    "core:tick",
     "weathercontrol:tick"
 ]
 }
