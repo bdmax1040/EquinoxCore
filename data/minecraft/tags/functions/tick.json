@@ -4,6 +4,7 @@
     "core:spectatorswitch",
     "core:joinmessage",
     "core:tick",
+    "core:finalgoodbye",
     "weathercontrol:tick"
 ]
 }
