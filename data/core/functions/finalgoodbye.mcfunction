@@ -22,7 +22,7 @@ execute as @a if score @s hc_playTick matches 7200150 run title @s title {"text"
 execute as @a if score @s hc_playTick matches 7200300 run title @s subtitle {"text":"Congratulations on making it to the end!"}
 execute as @a if score @s hc_playTick matches 7200300 run title @s title {"text":""}
 
-execute as @a if score @s hc_playTick matches 7200450 run title @s subtitle {"text":"I hope that you've' had fun..."}
+execute as @a if score @s hc_playTick matches 7200450 run title @s subtitle {"text":"I hope that you've had fun..."}
 execute as @a if score @s hc_playTick matches 7200450 run title @s title {"text":""}
 
 execute as @a if score @s hc_playTick matches 7200600 run title @s subtitle {"text":"And that you've made the most of the time you had!"}
