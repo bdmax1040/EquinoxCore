@@ -196,6 +196,7 @@ execute at @a[scores={hc_playTick=7199880}] run playsound core:boop_2 master @a[
 #5s remaming
 execute as @a if score @s hc_playTick matches 7199900 run tellraw @s {"text":"5 Seconds Remaining!","bold":true,"color":"red"}
 execute at @a[scores={hc_playTick=7199900}] run playsound core:boop_2 master @a[scores={hc_playTick=7199900}] ~ ~ ~ 100 1 1
+execute as @a if score @s hc_playTick matches 7199900 run effect give @s minecraft:levitation 5 0 true
 
 #4s remaming
 execute as @a if score @s hc_playTick matches 7199920 run tellraw @s {"text":"4 Seconds Remaining!","bold":true,"color":"red"}
