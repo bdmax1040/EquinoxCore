@@ -87,7 +87,7 @@ execute at @a[scores={hc_playTick=4680000}] run particle minecraft:totem_of_undy
 
 #70h
 execute as @a if score @s hc_playTick matches 5040000 run tellraw @s {"text":"70/100 Hours","bold":true,"color":"red"}
-execute at @a[scores={hc_playTick=5040000}] run playsound core:bling1 master @a[scores={hc_playTick=5040000}] ~ ~ ~ 100 1 1
+execute at @a[scores={hc_playTick=5040000}] run playsound core:bling_1 master @a[scores={hc_playTick=5040000}] ~ ~ ~ 100 1 1
 execute at @a[scores={hc_playTick=5040000}] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 1 100 force
 
 #75h
@@ -229,7 +229,7 @@ execute as @a if score @s hc_playTick matches 7200000 run title @s subtitle {"te
 execute as @a if score @s hc_playTick matches 7200000 run title @s title {"text":"TIME UP!","bold":true,"color":"red"}
 
 #Broadcast Notification
-execute as @a if score @s hc_playTick matches 7200000 run tellraw @a {"text":"","bold":false,"color":"green","extra":[{"selector":"@p"},{"bold": true,"text":" has run out of time!"}]}
+execute as @a if score @s hc_playTick matches 7200000 run tellraw @a {"text":"","bold":false,"color":"green","extra":[{"selector":"@s"},{"bold": true,"text":" has run out of time!"}]}
 execute at @a[scores={hc_playTick=7200000}] run playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 100 1 1
 
 
