@@ -9,7 +9,7 @@
 
 #Optional Startup Message
 
-tellraw @a {"text": "CavernCore datapack has successfuly loaded!", "color": "green"}
+tellraw @a {"text": "EquinoxCore datapack has successfuly loaded!", "color": "green"}
 
 
 
