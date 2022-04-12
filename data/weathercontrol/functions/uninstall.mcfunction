@@ -6,3 +6,4 @@
 
 scoreboard objectives remove clear
 scoreboard objectives remove rain
+scoreboard objectives remove thunder

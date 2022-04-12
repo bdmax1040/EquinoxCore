@@ -5,5 +5,3 @@
 ########
 
 scoreboard objectives add clear trigger
-
-scoreboard objectives add rain trigger
