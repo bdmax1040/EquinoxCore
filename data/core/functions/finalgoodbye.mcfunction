@@ -8,8 +8,8 @@
 
 
 #Final Goodbye
-execute as @a if score @s hc_playTick matches 7200020 run playsound core:finaltrack master @s ~ ~ ~ 130 1 1
-execute as @a if score @s hc_playTick matches 7200120..7201500 run effect give @s minecraft:blindness 1 1 true
+execute as @a if score @s hc_playTick matches 7200020 run playsound core:finaltrack master @s ~ ~ ~ 150 1 1
+execute as @a if score @s hc_playTick matches 7200120..7201500 run effect give @s minecraft:blindness 2 1 true
 execute as @a if score @s hc_playTick matches 7200120 run tp @s 0 3000 0
 execute as @a if score @s hc_playTick matches 7201480 run tp @s 0 130 0 0 0
 execute as @a if score @s hc_playTick matches 7201500 run effect clear @s
