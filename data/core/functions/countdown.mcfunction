@@ -11,8 +11,8 @@
 
 #0h
 execute as @a if score @s hc_playTick matches 0..3600000 run team join Stage1
-execute at @a[scores={hc_playTick=20}] run playsound core:bling_1 master @a[scores={hc_playTick=20}] ~ ~ ~ 100 1 1
-execute at @a[scores={hc_playTick=20}] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 1 100 force
+execute at @a[scores={hc_playTick=60}] run playsound core:bling_1 master @a[scores={hc_playTick=20}] ~ ~ ~ 100 1 1
+execute at @a[scores={hc_playTick=60}] run particle minecraft:totem_of_undying ~ ~ ~ 1 1 1 1 100 force
 
 #1h
 execute as @a if score @s hc_playTick matches 72000 run tellraw @s {"text":"1/100 Hours! Keep it up!","bold":true,"color":"red"}
