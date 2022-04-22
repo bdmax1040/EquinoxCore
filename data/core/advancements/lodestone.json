@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Locator",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a lodestone",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:lodestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Hold a lodestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lodestone",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Hold a lodestone"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "core:givelagu"
+    },
+    "parent": "core:blueice"
+}

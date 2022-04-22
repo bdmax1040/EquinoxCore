@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": {
+            "text": "Frosty",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a stack of blue ice",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Hold 64 blue ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_ice",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Hold 64 blue ice"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "core:givedragaz"
+    },
+    "parent": "core:shulker"
+}

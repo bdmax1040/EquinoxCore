@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Aqua Man",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft a conduit",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Hold a conduit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:conduit",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Hold a conduit"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "core:givesigel"
+    },
+    "parent": "core:lodestone"
+}
