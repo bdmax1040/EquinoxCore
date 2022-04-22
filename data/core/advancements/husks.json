@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Desert Hunter!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Kill 20 husk",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:husk_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+            "player": {
+                "player": {
+                    "stats": [
+                        {
+                            "type": "minecraft:killed",
+                            "stat": "minecraft:husk",
+                            "value": 19
+                        }
+                    ]
+                }
+            }
+            },
+            "entity": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:husk"
+                    }
+                }
+            ]
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "core:giveodin"
+    },
+    "parent": "core:root"
+}

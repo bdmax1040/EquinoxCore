@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Ghost Hunter!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Kill 40 ghasts",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:ghast_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:ghast",
+                                "value": 39
+                            }
+                        ]
+                    }
+                }
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ghast"
+                        }
+                    }
+                ]
+            }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "core:givelagu"
+    },
+    "parent": "core:blaze"
+}

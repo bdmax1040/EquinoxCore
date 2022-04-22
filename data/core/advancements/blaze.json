@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "text": "Fortress Hunter!",
+            "color": "white"
+        },
+        "description": {
+            "text": "Kill 30 blaze",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:blaze_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:killed",
+                                "stat": "minecraft:blaze",
+                                "value": 29
+                            }
+                        ]
+                    }
+                }
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:blaze"
+                        }
+                    }
+                ]
+            }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "core:givedragaz"
+    },
+    "parent": "core:husks"
+}
