@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Fortress Hunter!",
-            "color": "white"
+            "color": "#FF6010",
+            "bold": true
         },
         "description": {
             "text": "Kill 30 blaze",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:blaze_spawn_egg"

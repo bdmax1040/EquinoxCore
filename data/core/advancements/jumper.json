@@ -1,16 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "Frosty",
+            "text": "Jumper!",
             "color": "#FF6010",
             "bold": true
         },
         "description": {
-            "text": "Craft a stack of blue ice",
+            "text": "Brew a potion of Jump Boost II",
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:blue_ice"
+            "item": "minecraft:potion",
+            "nbt": "{Potion:leaping}"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,28 +19,21 @@
         "hidden": false
     },
     "criteria": {
-        "Hold 64 blue ice": {
-            "trigger": "minecraft:inventory_changed",
+        "Jump Boost II": {
+            "trigger": "minecraft:brewed_potion",
             "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:blue_ice",
-                        "count": {
-                            "min": 64
-                        }
-                    }
-                ]
+                "potion": "minecraft:strong_leaping"
             }
         }
     },
     "requirements": [
         [
-            "Hold 64 blue ice"
+            "Jump Boost II"
         ]
     ],
     "rewards": {
         "experience": 10,
         "function": "core:givedragaz"
     },
-    "parent": "core:shulker"
+    "parent": "core:floater"
 }

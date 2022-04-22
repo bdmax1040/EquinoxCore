@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Aqua Man",
-            "color": "white"
+            "color": "#07A9FF",
+            "bold": true
         },
         "description": {
             "text": "Craft a conduit",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:conduit"

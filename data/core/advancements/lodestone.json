@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Locator",
-            "color": "white"
+            "color": "green",
+            "bold": true
         },
         "description": {
             "text": "Craft a lodestone",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:lodestone"

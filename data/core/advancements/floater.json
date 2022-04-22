@@ -1,16 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "Portable Storage",
+            "text": "Floater!",
             "color": "#FF2727",
             "bold": true
         },
         "description": {
-            "text": "Craft a brown shulker box",
+            "text": "Brew a potion of Slow Falling that lasts for 4 minutes",
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:brown_shulker_box"
+            "item": "minecraft:potion",
+            "nbt": "{Potion:long_slow_falling}"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,24 +19,16 @@
         "hidden": false
     },
     "criteria": {
-        "Hold Brown Shulker Box": {
-            "trigger": "minecraft:inventory_changed",
+        "Long Slow Falling": {
+            "trigger": "minecraft:brewed_potion",
             "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:brown_shulker_box",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
-                    }
-                ]
+                "potion": "minecraft:long_slow_falling"
             }
         }
     },
     "requirements": [
         [
-            "Hold Brown Shulker Box"
+            "Long Slow Falling"
         ]
     ],
     "rewards": {

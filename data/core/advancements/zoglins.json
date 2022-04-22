@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Zog Hunter!",
-            "color": "white"
+            "color": "#07A9FF",
+            "bold": true
         },
         "description": {
             "text": "Kill 50 zoglins",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:zoglin_spawn_egg"

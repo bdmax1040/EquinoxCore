@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Desert Hunter!",
-            "color": "white"
+            "color": "#FF2727",
+            "bold": true
         },
         "description": {
             "text": "Kill 20 husk",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:husk_spawn_egg"

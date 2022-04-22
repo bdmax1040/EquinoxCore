@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "That's Enough...",
-            "color": "white"
+            "color": "#C600A5",
+            "bold": true
         },
         "description": {
             "text": "Craft a netherite block",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:netherite_block"

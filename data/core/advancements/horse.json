@@ -2,11 +2,12 @@
     "display": {
         "title": {
             "text": "Bone Hunter!",
-            "color": "white"
+            "color": "#C600A5",
+            "bold": true
         },
         "description": {
             "text": "Kill a skeleton horse",
-            "color": "green"
+            "color": "white"
         },
         "icon": {
             "item": "minecraft:skeleton_horse_spawn_egg"
