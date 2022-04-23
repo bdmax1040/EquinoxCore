@@ -18,7 +18,7 @@
         "hidden": false
     },
     "criteria": {
-        "Hold 64 blue ice": {
+        "blue_ice": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -34,7 +34,7 @@
     },
     "requirements": [
         [
-            "Hold 64 blue ice"
+            "blue_ice"
         ]
     ],
     "rewards": {

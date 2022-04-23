@@ -21,18 +21,6 @@
         "requirement": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "player": {
-                    "player": {
-                        "stats": [
-                            {
-                                "type": "minecraft:killed",
-                                "stat": "minecraft:skeleton_horse",
-                                "value": 0
-                            }
-                        ]
-                    }
-                }
-                },
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
@@ -43,6 +31,7 @@
                     }
                 ]
             }
+        }
     },
     "rewards": {
         "experience": 10,

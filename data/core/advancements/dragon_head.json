@@ -1,0 +1,60 @@
+{
+    "display": {
+        "title": {
+            "text": "A Clever Disguise",
+            "color": "#FF2727",
+            "bold": true
+        },
+        "description": {
+            "text": "Wear an ender dragon head",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Wear dragon head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_head",
+                        "count": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    }
+                ],
+                "slots": {
+                    "empty": {
+                        "min": 103,
+                        "max": 103
+                    },
+                    "full": {
+                        "min": 0,
+                        "max": 0
+                    },
+                    "occupied": {
+                        "min": 0,
+                        "max": 0
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Wear dragon head"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "core:giveodin"
+    },
+    "parent": "core:root"
+}

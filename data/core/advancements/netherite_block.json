@@ -18,24 +18,22 @@
         "hidden": false
     },
     "criteria": {
-        "Hold a netherite block": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+        "netherite_block": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
                 "items": [
-                    {
-                        "item": "minecraft:netherite_block",
-                        "count": {
-                            "min": 1,
-                            "max": 1
-                        }
-                    }
+                  "minecraft:netherite_block"
                 ]
-            }
+              }
+            ]
+          }
         }
-    },
-    "requirements": [
+      },
+      "requirements": [
         [
-            "Hold a netherite block"
+            "netherite_block"
         ]
     ],
     "rewards": {
