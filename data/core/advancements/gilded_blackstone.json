@@ -1,16 +1,16 @@
 {
     "display": {
         "title": {
-            "text": "Frosty",
+            "text": "Toasty",
             "color": "#FF6010",
             "bold": true
         },
         "description": {
-            "text": "Craft a stack of blue ice",
+            "text": "Obtain a Gilded Blackstone block",
             "color": "white"
         },
         "icon": {
-            "item": "minecraft:blue_ice"
+            "item": "minecraft:gilded_blackstone"
         },
         "frame": "task",
         "show_toast": true,
@@ -18,23 +18,22 @@
         "hidden": false
     },
     "criteria": {
-        "blue_ice": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
+        "gilded_blackstone": {
+          "trigger": "minecraft:inventory_changed",
+          "conditions": {
+            "items": [
+              {
                 "items": [
-                    {
-                        "item": "minecraft:blue_ice",
-                        "count": {
-                            "min": 64
-                        }
-                    }
+                  "minecraft:gilded_blackstone"
                 ]
-            }
+              }
+            ]
+          }
         }
-    },
-    "requirements": [
+      },
+      "requirements": [
         [
-            "blue_ice"
+            "gilded_blackstone"
         ]
     ],
     "rewards": {
