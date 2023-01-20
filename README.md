@@ -37,4 +37,3 @@ This is the core datapack that manages the custom survival experience for the Eq
  - Full custom sound effects and particle animations
 
  - Integration for Streamers (**COMING SOON**)
-
