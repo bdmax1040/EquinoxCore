@@ -1,4 +1,4 @@
-# EquinoxCore-1.18.2
+# EquinoxCore
 
 ## **IMPORTANT**
 
